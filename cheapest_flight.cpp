@@ -18,7 +18,7 @@ public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K) {
         
         // vector<bool> visited(n , false);
-        adj = vector<vector<pair<int,int>>>(n);
+        adj = vector<vector<pair<int,int> > >(n);
         dest = dst;
         
         for(auto i : flights) 
